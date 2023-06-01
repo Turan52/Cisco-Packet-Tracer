@@ -1,0 +1,30 @@
+Project 1:
+-Brief Explanation:
+Introduction:
+In today's interconnected world, designing and configuring efficient computer networks is crucial. This project presents the design and configuration of a network using Cisco Packet Tracer, a widely used network simulation tool. The network comprises four switches, three routers, and eight PCs.
+
+Network Design:
+The initial network design incorporates the following components:
+
+Four switches: These switches are responsible for connecting the various devices within the network.
+Three routers: The routers facilitate interconnectivity between different LANs or subnets.
+Eight PCs: These PCs serve as end-user devices within the network.
+IP Addressing and Default Gateway Assignment:
+To ensure proper communication between devices, each PC should be assigned an appropriate IP address and a default gateway. The IP addresses should be chosen from the correct subnet range and adhere to proper network segmentation principles. Additionally, the default gateway of each PC should correspond to the IP address of its connected router interface.
+
+Inter-Router Connectivity:
+For seamless communication between different LANs or subnets, serial DTE connections are employed to establish inter-router connectivity. Serial DTE interfaces enable data transmission between routers and support WAN connections.
+
+Error Identification and Resolution:
+During the analysis of the initial network design, several mistakes were identified. These errors include:
+
+Incorrect IP address assignment to PCs: IP addresses were not chosen from the correct subnet range, leading to addressing conflicts and communication issues.
+Inconsistent default gateway assignment: PCs were assigned default gateways that did not correspond to the IP addresses of their connected router interfaces.
+Serial DTE connection misconfiguration: The configuration of serial DTE interfaces between routers was incorrect, resulting in failed inter-router connectivity.
+To resolve these issues, the following steps were taken:
+
+Correct IP addresses were assigned to each PC, ensuring adherence to proper subnetting and addressing schemes.
+Default gateways were adjusted for each PC to align with the IP addresses of their respective connected router interfaces.
+Serial DTE connections between routers were properly configured, establishing seamless inter-router communication.
+Conclusion:
+This project successfully rectified the initial design errors and presented an academic approach to network configuration using Cisco Packet Tracer. By ensuring accurate IP address assignment, appropriate default gateway assignment, and correct serial DTE connection configuration, the network was optimized for efficient communication between devices. The project highlights the importance of meticulous network design and proper configuration practices to achieve a robust and reliable network infrastructure.
