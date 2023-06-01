@@ -7,8 +7,8 @@ Network Design:
 The initial network design incorporates the following components:
 
 Four switches: These switches are responsible for connecting the various devices within the network.
-Three routers: The routers facilitate interconnectivity between different LANs or subnets.
-Eight PCs: These PCs serve as end-user devices within the network.
+Three routers: The routers facilitate interconnectivity between different LAN s or subnets.
+Eight PC s: These PC s serve as end-user devices within the network.
 IP Addressing and Default Gateway Assignment:
 To ensure proper communication between devices, each PC should be assigned an appropriate IP address and a default gateway. The IP addresses should be chosen from the correct subnet range and adhere to proper network segmentation principles. Additionally, the default gateway of each PC should correspond to the IP address of its connected router interface.
 
@@ -18,8 +18,8 @@ For seamless communication between different LANs or subnets, serial DTE connect
 Error Identification and Resolution:
 During the analysis of the initial network design, several mistakes were identified. These errors include:
 
-Incorrect IP address assignment to PCs: IP addresses were not chosen from the correct subnet range, leading to addressing conflicts and communication issues.
-Inconsistent default gateway assignment: PCs were assigned default gateways that did not correspond to the IP addresses of their connected router interfaces.
+Incorrect IP address assignment to PC s: IP addresses were not chosen from the correct subnet range, leading to addressing conflicts and communication issues.
+Inconsistent default gateway assignment: PC s were assigned default gateways that did not correspond to the IP addresses of their connected router interfaces.
 Serial DTE connection misconfiguration: The configuration of serial DTE interfaces between routers was incorrect, resulting in failed inter-router connectivity.
 To resolve these issues, the following steps were taken:
 
